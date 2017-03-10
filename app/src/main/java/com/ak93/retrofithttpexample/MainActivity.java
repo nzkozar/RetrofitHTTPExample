@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements Callback<Stations
 
     private void startAPICall(){
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://www.trola.si")
+                .baseUrl("https://www.trola.si")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
